@@ -62,19 +62,27 @@ console.log("transformation de la credential");
                let session = await Pair_Code_By_Fredie_Tech.sendMessage(Pair_Code_By_Fredie_Tech.user.id, { text: '' + b64data });
 
                let FREDI_TECH_TEXT = `
-✧LUCKY MD DEVICE SUCCESSFUL CONNECTED✧
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-🤦  Creator ☞ ✧FREDI EZRA✧
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-🫂  WhattsApp Channel ☞ https://whatsapp.com/channel/0029VasiOoR3bbUw5aV4qB31
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-🥂 Contact Owne ☞ https://wa.me/255752593977
-FREDIETECH
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-> ©*FREDIE TECH 2025 SCRIPT*
 
-_Don't Forget To Give Star To My Repo_`
- await Pair_Code_By_Fredie_Tech.sendMessage(Pair_Code_By_Fredie_Tech.user.id,{text:FREDI_TECH_TEXT},{quoted:session})
+*_Pair Code Connected by SLG_*
+
+_____________________________________
+╭━━━━━━━━━━━━━╮
+┃         *『SLG-MD』*
+┃        
+┃ _vous  avez franchis la première étape pour déployer SLG-MD._
+┃                      
+╰━━━━━━━━━━━━━╯
+╭━━━━━━━━━━━━━╮
+┃                      
+┃  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
+┃ꪶ ུ۪۪.   *Ytube:* _(coming soon)_
+┃ꪶ ུ۪۪.   *Owner:* _wa.me/237693755398_
+┃                     
+╰━━━━━━━━━━━━━╯
+_____________________________________
+
+_Don't Forget To Give Star To My Repo_ `
+ Pair_Code_By_Fredie_Tech.sendMessage(Pair_Code_By_Fredie_Tech.user.id,{text:FREDI_TECH_TEXT},{quoted:session})
  
 
         await delay(100);
