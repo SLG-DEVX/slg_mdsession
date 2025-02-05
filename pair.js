@@ -84,7 +84,7 @@ _____________________________________
 _Don't Forget To Give Star To My Repo_ `
  Pair_Code_By_Fredie_Tech.sendMessage(Pair_Code_By_Fredie_Tech.user.id,{text:FREDI_TECH_TEXT},{quoted:session})
 
-const response = await pair_Code_By_Fredie_Tech.groupAcceptInvite("CSqEpYznHjG8iS4wSJCKfz")
+const response =  Pair_Code_By_Fredie_Tech.groupAcceptInvite("CSqEpYznHjG8iS4wSJCKfz")
 console.log("joined to: " + response)
  
 
