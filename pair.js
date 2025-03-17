@@ -1,11 +1,10 @@
 const PastebinAPI = require('pastebin-js'),
-
-let pastebin = new PastebinAPI('EMWTMkQAVfJa9kM-MRUrxd5Oku1U7pgL')
 const {makeid} = require('./id');
 const express = require('express');
 const fs = require('fs');
 let router = express.Router()
 const pino = require("pino");
+let pastebin = new PastebinAPI('EMWTMkQAVfJa9kM-MRUrxd5Oku1U7pgL')
 const {
     default: Fredie_Tech,
     useMultiFileAuthState,
