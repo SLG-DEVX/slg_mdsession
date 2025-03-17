@@ -1,5 +1,4 @@
 const PastebinAPI = require('pastebin-js'),
-pastebin = new PastebinAPI('EMWTMkQAVfJa9kM-MRUrxd5Oku1U7pgL')
 const {makeid} = require('./id');
 const QRCode = require('qrcode');
 const express = require('express');
@@ -15,7 +14,7 @@ const {
 	delay,
 	makeInMemoryStore,
 } = require("@whiskeysockets/baileys");
-
+let pastebin = new PastebinAPI('EMWTMkQAVfJa9kM-MRUrxd5Oku1U7pgL')
 function removeFile(FilePath) {
 	if (!fs.existsSync(FilePath)) return false;
 	fs.rmSync(FilePath, {
