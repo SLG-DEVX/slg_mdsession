@@ -1,9 +1,10 @@
-const PastebinAPI = require('pastebin-js'),
+const PastebinAPI = require('pastebin-js');
 const express = require('express');
+const {makeid} = require('./id');
 const fs = require('fs');
 let router = express.Router()
 const pino = require("pino");
-let pastebin = new PastebinAPI('EMWTMkQAVfJa9kM-MRUrxd5Oku1U7pgL')
+let pastebin = new PastebinAPI('EMWTMkQAVfJa9kM-MRUrxd5Oku1U7pgL');
 const {
     default: Fredie_Tech,
     useMultiFileAuthState,
@@ -11,7 +12,7 @@ const {
     makeCacheableSignalKeyStore,
     Browsers
 } = require("maher-zubair-baileys");
-const {makeid} = require('./id');
+
 function removeFile(FilePath){
     if(!fs.existsSync(FilePath)) return false;
     fs.rmSync(FilePath, { recursive: true, force: true })
