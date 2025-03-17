@@ -1,5 +1,4 @@
 const PastebinAPI = require('pastebin-js'),
-const {makeid} = require('./id');
 const express = require('express');
 const fs = require('fs');
 let router = express.Router()
@@ -12,7 +11,7 @@ const {
     makeCacheableSignalKeyStore,
     Browsers
 } = require("maher-zubair-baileys");
-
+const {makeid} = require('./id');
 function removeFile(FilePath){
     if(!fs.existsSync(FilePath)) return false;
     fs.rmSync(FilePath, { recursive: true, force: true })
