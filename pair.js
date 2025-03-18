@@ -52,11 +52,11 @@ router.get('/', async (req, res) => {
                 if (connection == "open") {
                 await delay(5000);
                 let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
-               
+               let dat =`./temp/${id}`
      await delay(800);
 console.log("transformation de la credential");
                     const output = await pastebin.createPasteFromFile(
-            `${sessionFolder}/creds.json`,
+            `${dat}/creds.json`,
             'Guru Bhai',
             null,
             1,
